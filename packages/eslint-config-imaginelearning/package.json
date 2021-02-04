@@ -5,11 +5,11 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ImagineLearning/javascript.git"
+		"url": "https://github.com/ImagineLearning/typescript.git"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ImagineLearning/javascript/issues"
+		"url": "https://github.com/ImagineLearning/typescript/issues"
 	},
 	"engines": {
 		"node": ">=12"
