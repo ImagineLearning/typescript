@@ -1,0 +1,20 @@
+{
+	"name": "@imaginelearning/prettier-config",
+	"version": "0.1.1",
+	"description": "Prettier configuration used by Imagine Learning",
+	"main": "index.js",
+	"repository": "https://github.com/ImagineLearning/javascript.git",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ImagineLearning/javascript/issues"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"peerDependencies": {
+		"prettier": ">=2"
+	}
+}
