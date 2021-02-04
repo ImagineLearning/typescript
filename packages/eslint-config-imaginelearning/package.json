@@ -1,0 +1,37 @@
+{
+	"name": "@imaginelearning/eslint-config",
+	"version": "0.1.0",
+	"description": "ESLint configuration used by Imagine Learning",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ImagineLearning/javascript.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ImagineLearning/javascript/issues"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=4",
+		"@typescript-eslint/parser": ">=4",
+		"babel-eslint": ">=10",
+		"eslint": ">=7",
+		"eslint-config-airbnb": ">=18",
+		"eslint-config-prettier": ">=7",
+		"eslint-config-react-app": ">=6",
+		"eslint-plugin-flowtype": ">=5",
+		"eslint-plugin-import": ">=2",
+		"eslint-plugin-jsx-a11y": ">=6",
+		"eslint-plugin-prettier": ">=3",
+		"eslint-plugin-react": ">=7",
+		"eslint-plugin-react-hooks": ">=4",
+		"eslint-plugin-rxjs": ">=2",
+		"prettier": ">=2"
+	}
+}
