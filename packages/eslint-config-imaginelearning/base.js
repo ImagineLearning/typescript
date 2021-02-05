@@ -21,7 +21,7 @@ module.exports = {
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
 
 		// Require consistent member declaration order.
-		'@typescript-eslint/member-ordering': 'error',
+		'@typescript-eslint/member-ordering': 'warn',
 
 		// Enforce consistent naming conventions.
 		camelcase: 'off',
@@ -123,7 +123,7 @@ module.exports = {
 		'no-restricted-syntax': ['error', 'WithStatement'],
 
 		// Enforce Prettier's formatting rules.
-		'prettier/prettier': 'error',
+		'prettier/prettier': 'warn',
 
 		// Don't require a space before a comment when designating a comment block with:
 		//====
@@ -131,7 +131,7 @@ module.exports = {
 		// or
 		//****
 		'spaced-comment': [
-			'error',
+			'warn',
 			'always',
 			{
 				exceptions: ['=', '-', '*'],
