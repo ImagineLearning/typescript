@@ -123,7 +123,10 @@ module.exports = {
 		'no-restricted-syntax': ['error', 'WithStatement'],
 
 		// Enforce Prettier's formatting rules.
-		'prettier/prettier': 'warn',
+		'prettier/prettier': ['warn', {
+			// Don't warn for OS-specific line endings. Git should handle this anyway.
+			endOfLine: 'auto',
+		}],
 
 		// Don't require a space before a comment when designating a comment block with:
 		//====
