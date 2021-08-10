@@ -3,7 +3,7 @@ module.exports = {
 	parserOptions: {
 		project: './tsconfig.json',
 	},
-	extends: ['airbnb/hooks', 'react-app', 'plugin:jsx-a11y/recommended', 'prettier/react'],
+	extends: ['airbnb/hooks', 'react-app', 'plugin:jsx-a11y/recommended', 'prettier'],
 	plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier'],
 	rules: {
 		// Enforce consistent naming conventions.
