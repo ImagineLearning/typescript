@@ -27,7 +27,10 @@ module.exports = {
 			},
 			{
 				selector: ['objectLiteralProperty', 'parameter', 'typeProperty'],
-				filter: 'Component',
+				filter: {
+					regex: 'Component$',
+					match: true,
+				},
 				format: ['PascalCase'],
 			},
 			// Allow `__html` for using `dangerouslySetInnerHTML` in React
